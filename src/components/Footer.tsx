@@ -14,7 +14,7 @@ const Footer = () => {
               </span>
             </h3>
             <p className="text-gray-300 mb-4">
-              UI/UX Designer, Video Editor & Frontend Developer creating digital experiences that inspire and engage.
+              Video Editor & UI/UX Designer creating High quality videos that inspire and engage.
             </p>
           </div>
 
@@ -47,7 +47,7 @@ const Footer = () => {
 
         <div className="border-t border-white/10 mt-8 pt-8 text-center">
           <p className="text-gray-300 flex items-center justify-center">
-            Made with <Heart className="h-4 w-4 mx-2 text-red-400" /> by Gautam Nikum © 2024
+            Gautam Nikum © 2024
           </p>
         </div>
       </div>

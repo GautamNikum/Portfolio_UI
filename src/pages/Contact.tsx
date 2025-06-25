@@ -149,7 +149,7 @@ const Contact = () => {
               <CardContent className="p-8">
                 <h2 className="text-2xl font-bold text-white mb-6">Let's Connect</h2>
                 <p className="text-gray-300 mb-8 leading-relaxed">
-                  I'm always excited to discuss new projects and opportunities. Whether you need UI/UX design, video editing, or frontend development services, I'm here to help bring your vision to life.
+                  I'm always excited to discuss new projects and opportunities. Whether you need Video Editing or UI/UX services, I'm here to help bring your vision to life.
                 </p>
                 <div className="space-y-6">
                   {contactInfo.map((info, index) => (
@@ -174,15 +174,15 @@ const Contact = () => {
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mr-3"></div>
-                    3 months of dedicated experience
+                    7 months of dedicated experience
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mr-3"></div>
-                    2 satisfied clients and counting
+                    20 satisfied clients and counting
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mr-3"></div>
-                    Multi-disciplinary creative skills
+                   Follow trends that helps to growth
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-purple-400 rounded-full mr-3"></div>

@@ -6,13 +6,13 @@ import Footer from "../components/Footer";
 const About = () => {
   const journey = [
     {
-      period: "2025 - Present",
-      title: "UI/UX Designer & Frontend Developer",
-      description: "Specializing in creating beautiful user interfaces and engaging digital experiences"
+      period: "2024 - 2025",
+      title: "Freelance Video Editor",
+      description: "Specializing in creating Engaging and high quality videos"
     },
     {
-      period: "2025",
-      title: "Video Editor",
+      period: "2025 - present",
+      title: " Full time Video Editor",
       description: "Crafting compelling visual stories through expert video editing and post-production"
     }
   ];
@@ -20,8 +20,8 @@ const About = () => {
   const values = [
     {
       icon: Target,
-      title: "Purpose-Driven Design",
-      description: "Every design decision serves a purpose and enhances user experience"
+      title: "Purpose-Driven Edit",
+      description: "Every Video decision serves a purpose and enhances user attention"
     },
     {
       icon: Award,
@@ -37,7 +37,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-white mb-6">About Me</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            I'm Gautam Nikum, a passionate creative professional who brings ideas to life through design and technology
+            I'm Gautam Nikum, a passionate creative professional who brings ideas to life through Editing and Creativity
           </p>
         </div>
 
@@ -48,13 +48,13 @@ const About = () => {
               <CardContent className="p-8">
                 <h2 className="text-3xl font-bold text-white mb-6">My Story</h2>
                 <p className="text-gray-300 mb-4 leading-relaxed">
-                  Hello! I'm Gautam Nikum, a multi-disciplinary creative professional with a passion for creating exceptional digital experiences. I've had the privilege of working with 2 amazing clients and completing 2 projects.
+                 Hello! I'm Gautam Nikum, a creative video editor with a passion for visual storytelling and crafting impactful digital content.
                 </p>
                 <p className="text-gray-300 mb-4 leading-relaxed">
-                  My journey in the creative field began with a fascination for how design and technology can come together to solve real-world problems. I specialize in three key areas: UI/UX Design, Video Editing, and Frontend Development.
+                 I’ve successfully completed 100+ videos for 10+ clients across various industries — including promotional content, tutorials, reels, and ad campaigns. With a strong focus on narrative, pacing, and visual appeal, I specialize in creating trend-based, platform-optimized videos that engage audiences and elevate brands.
                 </p>
                 <p className="text-gray-300 leading-relaxed">
-                  What drives me is the opportunity to transform ideas into tangible, beautiful, and functional digital products that make a difference in people's lives.
+                 What drives me is turning ideas into memorable video experiences that not only look good but deliver real impact — helping creators, brands, and businesses grow in the digital space.
                 </p>
               </CardContent>
             </Card>
@@ -73,7 +73,7 @@ const About = () => {
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-5 w-5 mr-4 text-purple-400" />
-                    <span>3 Months Experience</span>
+                    <span>Indore, India</span>
                   </div>
                 </div>
               </CardContent>
@@ -127,16 +127,16 @@ const About = () => {
           </Card>
           <Card className="bg-white/10 backdrop-blur-lg border-white/20 text-center">
             <CardContent className="p-8">
-              <div className="text-4xl font-bold text-purple-400 mb-2">2</div>
-              <div className="text-white font-semibold mb-1">Happy</div>
-              <div className="text-gray-300 text-sm">Clients</div>
+              <div className="text-4xl font-bold text-purple-400 mb-2">1</div>
+              <div className="text-white font-semibold mb-1">Year</div>
+              <div className="text-gray-300 text-sm">Over all experience</div>
             </CardContent>
           </Card>
           <Card className="bg-white/10 backdrop-blur-lg border-white/20 text-center">
             <CardContent className="p-8">
-              <div className="text-4xl font-bold text-purple-400 mb-2">2</div>
-              <div className="text-white font-semibold mb-1">Completed</div>
-              <div className="text-gray-300 text-sm">Projects</div>
+              <div className="text-4xl font-bold text-purple-400 mb-2">100+</div>
+              <div className="text-white font-semibold mb-1">Video</div>
+              <div className="text-gray-300 text-sm">Completed</div>
             </CardContent>
           </Card>
         </div>

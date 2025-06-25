@@ -3,13 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Download, Mail, Phone, MapPin, Calendar, Users, Star } from "lucide-react";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer";  
 
 const Home = () => {
   const stats = [
-    { icon: Calendar, label: " Project Experience", value: "3 Months" },
-    { icon: Users, label: "Happy Clients", value: "2" },
-    { icon: Star, label: "Projects", value: "2" },
+    { icon: Calendar, label: "Experience", value: "1 Year" },
+    { icon: Users, label: "Happy Clients", value: "10+" },
+    { icon: Star, label: "Projects", value: "100+" },
   ];
 
   return (
@@ -23,8 +23,8 @@ const Home = () => {
                 Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Gautam Nikum</span>
               </h1>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                UI/UX Designer • Frontend Developer • Video Editor
-                <blockquote> Bringing ideas to life through impactful UI/UX design.</blockquote>
+                Video Editor • Social Media Manager
+                <blockquote>Crafting visual stories from moments that connect, inspire, and become unforgettable experiences.</blockquote>
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Button asChild className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-3 rounded-full">
@@ -34,11 +34,11 @@ const Home = () => {
                 </Button>   
                 <a href="https://docs.google.com/document/d/1QF6bGCrGrrFV5pz3wcnW2Ps0ULRMfhCQUvAiSHZBaT4/export?format=pdf"
   target="_blank">         
-                  <Button variant="outline" className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3 rounded-full">
+                  {/* <Button variant="outline" className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3 rounded-full">
                     <Download className="mr-2 h-4 w-4" />
                     Download Resume
                     
-                  </Button>
+                  </Button> */}
                   </a>
               </div>
             </div>
@@ -79,7 +79,7 @@ const Home = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
             <p className="text-gray-300 max-w-2xl mx-auto">
-             I'm a versatile digital professional with expertise in UI/UX design, video editing, and frontend development. I love bringing ideas to life through beautiful designs and seamless user experiences.
+            I'm a passionate video editor and creative storyteller with 7 months of hands-on experience at DebugShala, where I worked on a variety of content—from educational videos to social media reels. Alongside this, I’ve taken on freelance projects, helping brands bring their ideas to life through impactful visuals and compelling scripts. With a focus on storytelling, rhythm, and detail, I aim to create edits that not only look great but also connect deeply with the audience.
             </p>
           </div>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -88,7 +88,9 @@ const Home = () => {
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-white mb-4">My Journey</h3>
                   <p className="text-gray-300 mb-6">
-                    I'm a multi-disciplinary creative professional specializing in UI/UX design, video editing, and frontend development. With 3 months of experience, I've worked with 2 happy clients and completed 2 successful projects.
+                    I'm a creative video editor and script writer with 7 months of experience at DebugShala and freelance projects. I specialize in turning raw footage into engaging visual stories that connect and inspire audiences.
+
+
                   </p>
                   <div className="space-y-3">
                     <div className="flex items-center text-gray-300">
@@ -120,85 +122,79 @@ const Home = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">Featured Projects</h2>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              Explore my latest work in UI/UX design, video editing, and web development
+              Explore my latest work in Video Editing
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
               
             <Card className="bg-white/10 backdrop-blur-lg border-white/20 overflow-hidden group hover:bg-white/15 transition-all duration-300">
               <div className="h-48 bg-gradient-to-br from-purple-500 to-pink-500 relative overflow-hidden">
-               <img src="Frame 427319087.png" alt="" />
+               <img src="image.png" alt="" />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
                 <div className="absolute bottom-4 left-4">
-                  <span className="bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">UI/UX Design</span>
+                  <span className="bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">Promotional Video</span>
               
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-white mb-2"> IT Training Institute Webpage</h3>
+                <h3 className="text-xl font-bold text-white mb-2"> IT Training Institute ADD</h3>
                 <p className="text-gray-300 mb-4">
-                 Create a visually engaging and user-friendly platform for an IT training brand.
+                 Created visually engaging and informative video content for an IT training brand, enhancing learning experiences and boosting audience engagement.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-sm">Figma</span>
-                  <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-sm">UX Design</span>
-                  <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-sm">User Research</span>
+                  <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-sm">Smooth Animation</span>
+                  <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-sm">Clear Message</span>
+                  <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-sm">Engaging Visuals</span>
                 </div>
                 <p className="text-sm text-gray-400 mb-4">
-                  <strong>Case Study:</strong> Designed a mobile-first website for an IT training institute with smooth navigation, responsive layout, and clear course categories. Included a bold hero section, placement highlights, trainer showcase, FAQs, testimonials, and a quick inquiry form to boost engagement and conversions. The design focused on providing a seamless and intuitive user experience across all devices.
+                  <strong>What i do</strong> Edited a series of promotional and educational videos for an IT training institute, focusing on visual clarity, brand consistency, and viewer engagement. The videos featured dynamic text overlays, animated transitions, course highlights, trainer introductions, placement success stories, FAQs, and student testimonials. Each video was crafted to simplify complex topics, build trust, and drive inquiries—optimized for platforms like YouTube, Instagram, and websites to ensure maximum reach and impact.
 
 
                 </p>
-                <a
-  href="https://www.figma.com/proto/5h8no42pJZC5fziZY67Vtc/Portfolio-project?node-id=317-15603&t=UYRfFb1nv8UPh5Wh-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A19"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <Button
-    variant="outline"
-    size="sm"
-    className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white"
-  >
-    View Project <ArrowRight className="ml-2 h-3 w-3" />
-  </Button>
-</a>
+                
+  <a
+        href="https://drive.google.com/file/d/1nXhPSjjgWO_nKgYYQDEdJL3VZ0whzsLV/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="border border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-4 py-2 text-sm rounded-md flex items-center">
+          View Project <ArrowRight className="ml-2 h-4 w-4" />
+        </button>
+      </a>  
+
               </CardContent>
             </Card>
 
             <Card className="bg-white/10 backdrop-blur-lg border-white/20 overflow-hidden group hover:bg-white/15 transition-all duration-300">
               <div className="h-48 bg-gradient-to-br from-blue-500 to-cyan-500 relative overflow-hidden">
-                <img src="Frame 427319086.png" alt="" />
+                <img src="Aditya.png" alt="" />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
                 <div className="absolute bottom-4 left-4">
-                  <span className="bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">UI/UX Design</span>
+                  <span className="bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">Story Telling</span>
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-white mb-2"> Spiritual E-commerce Design</h3>
+                <h3 className="text-xl font-bold text-white mb-2">Placed Students Story Telling</h3>
                 <p className="text-gray-300 mb-4">
-                  Building a smooth and soulful shopping journey for spiritual product lovers.
+                Created visually engaging and informative Story Telling video for an IT training brand, enhancing learning experiences and boosting audience engagement..
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">Figma</span>
-                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">UX Design</span>
-                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">User Research</span>
+                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">Story Telling</span>
+                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">User Engagment</span>
+                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">High quality Visuals</span>
                 </div>
                 <p className="text-sm text-gray-400 mb-4">
-                  <strong>Case Study:</strong> Designed a responsive e-commerce site for a personal brand offering spiritual and fragrance products like kapoordhani, diyas, and agarbattis. Focused on clean layout, product categories, flash sales, and strong CTA. Included banners, trust sections, and a smooth flow from product view to checkout to boost user experience and conversions.
+                  <strong>What i do</strong> Created a storytelling-based promotional video for an IT training brand, highlighting its courses, placement success, and student growth journey. Focused on a narrative flow that connects emotionally with viewers, using dynamic text, smooth transitions, and engaging visuals. Included brand elements, testimonials, and a strong call to action to boost trust, engagement, and enrollment conversions.
                 </p>
-                <a
-  href="https://www.figma.com/proto/5h8no42pJZC5fziZY67Vtc/Portfolio-project?node-id=470-15077&t=9Jy2g5Jsb3xx0t5a-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A19"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <Button
-    variant="outline"
-    size="sm"
-    className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white"
-  >
-    View Project <ArrowRight className="ml-2 h-3 w-3" />
-  </Button>
-</a>
+           <a
+        href="https://drive.google.com/file/d/1U1ihNQlCD0Ben8Vb_iIlM8zIXLTBpsnQ/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="border border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-4 py-2 text-sm rounded-md flex items-center">
+          View Project <ArrowRight className="ml-2 h-4 w-4" />
+        </button>
+      </a>
               </CardContent>
             </Card>
           </div>
