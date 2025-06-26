@@ -24,7 +24,7 @@ const Home = () => {
               </h1>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
 
-                UI/UX Designer
+              Video Editor | Social Media manager
                 <blockquote> Bringing ideas to life through impactful UI/UX design.</blockquote>
 
               </p>
