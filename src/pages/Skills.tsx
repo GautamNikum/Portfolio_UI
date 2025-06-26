@@ -15,9 +15,9 @@ const Skills = () => {
     },
     {
       icon: Video,
-      title: "Video Editing",
-      description: "Crafting compelling visual stories through expert editing",
-      skills: ["Color Grading", "Transitions", "Effects"],
+      title: "Other Skills",
+      description: "Apart from design i have some other skills",
+      skills: ["Content Creation", "Video Editing", "Social Media"],
       color: "from-blue-500 to-cyan-500"
     },
     {

@@ -23,8 +23,10 @@ const Home = () => {
                 Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Gautam Nikum</span>
               </h1>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                Video Editor • Social Media Manager
-                <blockquote>Crafting visual stories from moments that connect, inspire, and become unforgettable experiences.</blockquote>
+
+                UI/UX Designer
+                <blockquote> Bringing ideas to life through impactful UI/UX design.</blockquote>
+
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Button asChild className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-3 rounded-full">
