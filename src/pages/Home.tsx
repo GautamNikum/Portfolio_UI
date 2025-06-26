@@ -25,7 +25,7 @@ const Home = () => {
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
 
               Video Editor | Social Media manager
-                <blockquote> Bringing ideas to life through impactful UI/UX design.</blockquote>
+                <blockquote> Bringing ideas to life through impactful and creative video editing.</blockquote>
 
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
