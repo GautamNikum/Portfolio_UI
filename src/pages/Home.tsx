@@ -1,4 +1,4 @@
-
+ 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Download, Mail, Phone, MapPin, Calendar, Users, Star } from "lucide-react";
@@ -24,7 +24,7 @@ const Home = () => {
               </h1>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
 
-              Video Editor | Social Media manager
+              Video Editor
                 <blockquote> Bringing ideas to life through impactful and creative video editing.</blockquote>
 
               </p>
