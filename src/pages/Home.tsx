@@ -189,7 +189,7 @@ const Home = () => {
                   <strong>What i do</strong> Created a storytelling-based promotional video for an IT training brand, highlighting its courses, placement success, and student growth journey. Focused on a narrative flow that connects emotionally with viewers, using dynamic text, smooth transitions, and engaging visuals. Included brand elements, testimonials, and a strong call to action to boost trust, engagement, and enrollment conversions.
                 </p>
            <a
-        href="https://drive.google.com/file/d/1U1ihNQlCD0Ben8Vb_iIlM8zIXLTBpsnQ/view?usp=sharing"
+        href="https://drive.google.com/drive/folders/1wG0OWnlQszfYS2JoY4yJ5rxqM5nYemgc?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
