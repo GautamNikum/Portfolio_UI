@@ -169,7 +169,7 @@ const Home = () => {
 
              <Card className="bg-white/10 backdrop-blur-lg border-white/20 overflow-hidden group hover:bg-white/15 transition-all duration-300">
               <div className="h-48 bg-gradient-to-br from-blue-500 to-cyan-500 relative overflow-hidden">
-                <img src="chatgpt.png" alt="" />
+                <img src="Aaditya.png" alt="" />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
                 <div className="absolute bottom-4 left-4">
                   <span className="bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">Educational </span>
@@ -190,40 +190,6 @@ const Home = () => {
                 </p>
            <a
         href="https://drive.google.com/drive/folders/1wG0OWnlQszfYS2JoY4yJ5rxqM5nYemgc?usp=sharing"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <button className="border border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-4 py-2 text-sm rounded-md flex items-center">
-          View Project <ArrowRight className="ml-2 h-4 w-4" />
-        </button>
-      </a>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-white/10 backdrop-blur-lg border-white/20 overflow-hidden group hover:bg-white/15 transition-all duration-300">
-              <div className="h-48 bg-gradient-to-br from-blue-500 to-cyan-500 relative overflow-hidden">
-                <img src="Aditya.png" alt="" />
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
-                <div className="absolute bottom-4 left-4">
-                  <span className="bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">Story Telling</span>
-                </div>
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-white mb-2">Placed Students Story Telling</h3>
-                <p className="text-gray-300 mb-4">
-                Created visually engaging and informative Story Telling video for an IT training brand, enhancing learning experiences and boosting audience engagement..
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">Story Telling</span>
-                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">User Engagment</span>
-                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">High quality Visuals</span>
-                </div>
-                <p className="text-sm text-gray-400 mb-4">
-                  <strong>What i do</strong> Created a storytelling-based promotional video for an IT training brand, highlighting its courses, placement success, and student growth journey. Focused on a narrative flow that connects emotionally with viewers, using dynamic text, smooth transitions, and engaging visuals. Included brand elements, testimonials, and a strong call to action to boost trust, engagement, and enrollment conversions.
-                </p>
-           <a
-        href="https://drive.google.com/file/d/1U1ihNQlCD0Ben8Vb_iIlM8zIXLTBpsnQ/view?usp=sharing"
-        
         target="_blank"
         rel="noopener noreferrer"
       >
