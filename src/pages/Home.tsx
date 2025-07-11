@@ -212,7 +212,7 @@ const Home = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-white mb-2">Educational Content</h3>
                 <p className="text-gray-300 mb-4">
-                Created visually engaging and informative Story Telling video for an AI Trainig Institute, enhancing learning experiences and boosting audience engagement..
+                Created visually engaging video for an AI Trainig Institute, enhancing learning experiences and boosting audience engagement..
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">Story Telling</span>
