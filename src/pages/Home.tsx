@@ -167,6 +167,39 @@ const Home = () => {
               </CardContent>
             </Card>
 
+             <Card className="bg-white/10 backdrop-blur-lg border-white/20 overflow-hidden group hover:bg-white/15 transition-all duration-300">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-cyan-500 relative overflow-hidden">
+                <img src="chatgpt.png" alt="" />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
+                <div className="absolute bottom-4 left-4">
+                  <span className="bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">Educational </span>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-white mb-2">Educational Content</h3>
+                <p className="text-gray-300 mb-4">
+                Created visually engaging and informative Story Telling video for an AI Trainig Institute, enhancing learning experiences and boosting audience engagement..
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">Story Telling</span>
+                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">User Engagment</span>
+                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">High quality Visuals</span>
+                </div>
+                <p className="text-sm text-gray-400 mb-4">
+                  <strong>What i do</strong> Created an educational awareness video for Talent Catalyst AI, focusing on explaining AI and Generative AI technologies in a clear and simplified manner. The video detailed how to frame effective prompts to get accurate responses from AI chatbots. It featured engaging visuals, clean text overlays, and smooth transitions to maintain viewer attention. Designed to build understanding and confidence among learners, the video aimed to demystify complex AI concepts and empower viewers to use Generative AI tools more effectively. Optimized for YouTube, Instagram, and websites to maximize reach, awareness, and learning impact.
+                </p>
+           <a
+        href="https://drive.google.com/file/d/1U1ihNQlCD0Ben8Vb_iIlM8zIXLTBpsnQ/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="border border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-4 py-2 text-sm rounded-md flex items-center">
+          View Project <ArrowRight className="ml-2 h-4 w-4" />
+        </button>
+      </a>
+              </CardContent>
+            </Card>
+
             <Card className="bg-white/10 backdrop-blur-lg border-white/20 overflow-hidden group hover:bg-white/15 transition-all duration-300">
               <div className="h-48 bg-gradient-to-br from-blue-500 to-cyan-500 relative overflow-hidden">
                 <img src="Aditya.png" alt="" />
@@ -201,38 +234,7 @@ const Home = () => {
             </Card>
 
 
-               <Card className="bg-white/10 backdrop-blur-lg border-white/20 overflow-hidden group hover:bg-white/15 transition-all duration-300">
-              <div className="h-48 bg-gradient-to-br from-blue-500 to-cyan-500 relative overflow-hidden">
-                <img src="chatgpt.png" alt="" />
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
-                <div className="absolute bottom-4 left-4">
-                  <span className="bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">Educational </span>
-                </div>
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-white mb-2">Educational Content</h3>
-                <p className="text-gray-300 mb-4">
-                Created visually engaging and informative Story Telling video for an AI Trainig Institute, enhancing learning experiences and boosting audience engagement..
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">Story Telling</span>
-                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">User Engagment</span>
-                  <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-sm">High quality Visuals</span>
-                </div>
-                <p className="text-sm text-gray-400 mb-4">
-                  <strong>What i do</strong> Created an educational awareness video for Talent Catalyst AI, focusing on explaining AI and Generative AI technologies in a clear and simplified manner. The video detailed how to frame effective prompts to get accurate responses from AI chatbots. It featured engaging visuals, clean text overlays, and smooth transitions to maintain viewer attention. Designed to build understanding and confidence among learners, the video aimed to demystify complex AI concepts and empower viewers to use Generative AI tools more effectively. Optimized for YouTube, Instagram, and websites to maximize reach, awareness, and learning impact.
-                </p>
-           <a
-        href="https://drive.google.com/file/d/1U1ihNQlCD0Ben8Vb_iIlM8zIXLTBpsnQ/view?usp=sharing"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <button className="border border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-4 py-2 text-sm rounded-md flex items-center">
-          View Project <ArrowRight className="ml-2 h-4 w-4" />
-        </button>
-      </a>
-              </CardContent>
-            </Card>
+             
           </div>
         </div>
       </section>
